@@ -12,16 +12,17 @@ For confirmation open terminal and type ‘theharvester’ and verify it. If  yo
 ### Installation:
 In terminal type:
 
-            sudo apt-get theharvester
+            $ sudo apt-get theharvester
 If it doesn’t work you can try to clone it directly from git using the following commands
 
-            git clone https://github.com/laramies/theHarvester.git
-            cd theHarvester
-            sudo python ./theHarvester.py
+            $ git clone https://github.com/laramies/theHarvester.git
+            $ cd theHarvester
+            $ sudo python ./theHarvester.py
+            
 ### Upgrading:
 use the following command to upgrade the harvester
 
-  sudo apt-get upgrade theharvester
+            $ sudo apt-get upgrade theharvester
 
 ### How to use this harvester tool ?
   theharvester -d [domain name] -b [search engine name / all ][options] [parameters]
@@ -65,9 +66,9 @@ To save the result into an html file :
  To search in PGP(Pretty Good Privacy) only :
         theharvester -d abc.com -b pgp     
 
-#Thanks for reading
-#Don't forget to follow me.
-#Happy Hacking.
+#Thanks for reading !
+#Don't forget to follow me !
+#Happy Hacking !
 
 ### ☞Social Media Links:
 Facebook: https://www.facebook.com/manojshrestha00
