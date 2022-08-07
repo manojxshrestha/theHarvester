@@ -69,13 +69,4 @@ To save the result into an html file :
 
 #Thanks for reading !
 
-#Don't forget to follow me !
-
 #Happy Hacking !
-
-# ☞Social Media Links:
-Facebook: https://www.facebook.com/manojshrestha00
-
-Instragram: https://www.instagram.com/manojshrestha00
-
-Twitter:  https://www.twitter.com/manojshrestha00
