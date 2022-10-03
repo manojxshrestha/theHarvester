@@ -1,6 +1,6 @@
-![theharvester-logo](https://user-images.githubusercontent.com/106522935/193584706-56b7fd19-5951-4161-bdc6-1963353ff286.svg)
-
 # theHarvester
+
+![theharvester-logo](https://user-images.githubusercontent.com/106522935/193584706-56b7fd19-5951-4161-bdc6-1963353ff286.svg)
 
 # About theHarvester
 theHarvester is a very simple to use, yet powerful and effective tool designed to be used in the early stages of a penetration test or red team engagement. Use it for open source intelligence (OSINT) gathering to help determine a company's external threat landscape on the internet. The tool gathers emails, names, subdomains, IPs and URLs using multiple public data source.
