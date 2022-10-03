@@ -77,16 +77,16 @@ Usage:
 
 # Examples
 To list available options
-        theharvester
         
-To search emails :
+        
+     To search emails :
         theHarvester.py -d abc.com -b all
         
-To search emails with a limit :
+     To search emails with a limit :
         theHarvester.py -d abc.com -b all -l 200
         
-To save the result into an html file :
+     To save the result into an html file :
         theharvester -d abc.com -b all -h myresults.html
         
- To search in PGP(Pretty Good Privacy) only :
+      To search in PGP(Pretty Good Privacy) only :
         theharvester -d abc.com -b pgp     
