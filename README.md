@@ -79,14 +79,10 @@ Usage:
 To list available options
         
         
-     To search emails :
-        theHarvester.py -d abc.com -b all
+     To search emails : $ theHarvester.py -d abc.com -b all
         
-     To search emails with a limit :
-        theHarvester.py -d abc.com -b all -l 200
+     To search emails with a limit : $ theHarvester.py -d abc.com -b all -l 200
         
-     To save the result into an html file :
-        theharvester -d abc.com -b all -h myresults.html
+     To save the result into an html file : $ theharvester -d abc.com -b all -h myresults.html
         
-      To search in PGP(Pretty Good Privacy) only :
-        theharvester -d abc.com -b pgp     
+     To search in PGP(Pretty Good Privacy) only : $ theharvester -d abc.com -b pgp     
