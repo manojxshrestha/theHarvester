@@ -2,7 +2,7 @@
 # theHarvester
 
 # About theHarvester
-theHarvester is a very simple to use, yet powerful and effective tool designed to be used in the early stages of a penetration test or red team engagement. Use it for open source intelligence (OSINT) gathering to help determine a company's external threat landscape on the internet. The tool gathers emails, names, subdomains, IPs and URLs using multiple public data sources.
+theHarvester is a very simple to use, yet powerful and effective tool designed to be used in the early stages of a penetration test or red team engagement. Use it for open source intelligence (OSINT) gathering to help determine a company's external threat landscape on the internet. The tool gathers emails, names, subdomains, IPs and URLs using multiple public data source.
 
 # How to install it?
 This is a by default tool in kali linux. So you just need to update the harvester tool.
@@ -30,10 +30,9 @@ Option’s
 
  root@kali:~# theHarvester -h
 
- usage: theHarvester [-h] -d DOMAIN [-l LIMIT] [-S START] [-g] [-p] [-s] [--screenshot SCREENSHOT] [-v] [-e DNS_SERVER [-t DNS_TLD] [-r] [-n] [-c] [-f FILENAME] [-b SOURCE]
+Usage:
 
- theHarvester is used to gather open source intelligence (OSINT) on a company
- or domain.
+theHarvester [-h] -d DOMAIN [-l LIMIT] [-S START] [-g] [-p] [-s] [--screenshot SCREENSHOT] [-v] [-e DNS_SERVER [-t DNS_TLD] [-r] [-n] [-c] [-f FILENAME] [-b SOURCE]
 
  options:
    -h, --help            show this help message and exit
