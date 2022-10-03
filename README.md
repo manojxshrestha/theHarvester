@@ -1,4 +1,5 @@
-![havester](https://user-images.githubusercontent.com/106522935/173199264-f445ce77-8da7-4b4f-bef1-51ba4b72b408.png)
+![theharvester-logo](https://user-images.githubusercontent.com/106522935/193584706-56b7fd19-5951-4161-bdc6-1963353ff286.svg)
+
 # theHarvester
 
 # About theHarvester
