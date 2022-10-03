@@ -37,43 +37,33 @@ Usage:
  
        -h, --help            show this help message and exit
    
-       -d DOMAIN, --domain DOMAIN
-                         Company name or domain to search.
+       -d DOMAIN, --domain DOMAIN [Company name or domain to search]
                          
-       -l LIMIT, --limit LIMIT
-                         Limit the number of search results, default=500.
+       -l LIMIT, --limit LIMIT [Limit the number of search results, default=500]
                          
-       -S START, --start START
-                         Start with result number X, default=0.
+       -S START, --start START [Start with result number X, default=0]
                          
-        -g, --google-dork     Use Google Dorks for Google search.
+        -g, --google-dork [Use Google Dorks for Google search]
    
-        -p, --proxies         Use proxies for requests, enter proxies in
-                         proxies.yaml.
+        -p, --proxies [Use proxies for requests, enter proxies in proxies.yaml]
                          
-         -s, --shodan          Use Shodan to query discovered hosts.
+         -s, --shodan [Use Shodan to query discovered hosts]
    
-         --screenshot SCREENSHOT
-                        Take screenshots of resolved domains specify output
-                        directory: --screenshot output_directory.
+         --screenshot SCREENSHOT [Take screenshots of resolved domains specify output directory: --screenshot output_directory]
                         
-         -v, --virtual-host    Verify host name via DNS resolution and search for
-                        virtual hosts.
+         -v, --virtual-host [Verify host name via DNS resolution and search for virtual hosts]
                        
-         -e DNS_SERVER, --dns-server DNS_SERVER
-                        DNS server to use for lookup.
+         -e DNS_SERVER, --dns-server DNS_SERVER [DNS server to use for lookup]
                         
-          -t DNS_TLD, --dns-tld DNS_TLD
-                         Perform a DNS TLD expansion discovery, default False.
+          -t DNS_TLD, --dns-tld DNS_TLD [Perform a DNS TLD expansion discovery, default False]
                          
-         -r, --take-over       Check for takeovers.
+         -r, --take-over [Check for takeovers]
    
-          -n, --dns-lookup      Enable DNS server lookup, default False.
+          -n, --dns-lookup [Enable DNS server lookup, default False]
    
-          -c, --dns-brute       Perform a DNS brute force on the domain.
+          -c, --dns-brute [Perform a DNS brute force on the domain]
     
-           -f FILENAME, --filename FILENAME
-                        Save the results to an XML and JSON file.
+           -f FILENAME, --filename FILENAME [Save the results to an XML and JSON file]
                         
            -b SOURCE, --source SOURCE
                         anubis, baidu, bing, binaryedge, bingapi,
