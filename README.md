@@ -30,21 +30,6 @@ Option’s
 
  root@kali:~# theHarvester -h
 
- *******************************************************************
- *  _   _                                            _             *
- * | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
- * | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
- * | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
- *  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
- *                                                                 *
- * theHarvester 4.0.3                                              *
- * Coded by Christian Martorella                                   *
- * Edge-Security Research                                          *
- * cmartorella@edge-security.com                                   *
- *                                                                 *
- ******************************************************************* 
-
-
  usage: theHarvester [-h] -d DOMAIN [-l LIMIT] [-S START] [-g] [-p] [-s]
                      [--screenshot SCREENSHOT] [-v] [-e DNS_SERVER]
                      [-t DNS_TLD] [-r] [-n] [-c] [-f FILENAME] [-b SOURCE]
@@ -106,8 +91,3 @@ To save the result into an html file :
         
  To search in PGP(Pretty Good Privacy) only :
         theharvester -d abc.com -b pgp     
-
-
-#Thanks for reading !
-
-#Happy Hacking !
