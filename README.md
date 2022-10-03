@@ -30,52 +30,52 @@ use the following command to upgrade the harvester
 
 Usage:
 
-   $ theHarvester [-h] -d DOMAIN [-l LIMIT] [-S START] [-g] [-p] [-s] [--screenshot SCREENSHOT] [-v] [-e DNS_SERVER [-t DNS_TLD] [-r] [-n] [-c] [-f FILENAME] [-b SOURCE]
+       $ theHarvester [-h] -d DOMAIN [-l LIMIT] [-S START] [-g] [-p] [-s] [--screenshot SCREENSHOT] [-v] [-e DNS_SERVER [-t DNS_TLD] [-r] [-n] [-c] [-f FILENAME] [-b SOURCE]
 
 
  options:
  
-   -h, --help            show this help message and exit
+       -h, --help            show this help message and exit
    
-   -d DOMAIN, --domain DOMAIN
+       -d DOMAIN, --domain DOMAIN
                          Company name or domain to search.
                          
-  -l LIMIT, --limit LIMIT
+       -l LIMIT, --limit LIMIT
                          Limit the number of search results, default=500.
                          
-   -S START, --start START
+       -S START, --start START
                          Start with result number X, default=0.
                          
-   -g, --google-dork     Use Google Dorks for Google search.
+        -g, --google-dork     Use Google Dorks for Google search.
    
-   -p, --proxies         Use proxies for requests, enter proxies in
+        -p, --proxies         Use proxies for requests, enter proxies in
                          proxies.yaml.
                          
-   -s, --shodan          Use Shodan to query discovered hosts.
+         -s, --shodan          Use Shodan to query discovered hosts.
    
-   --screenshot SCREENSHOT
+         --screenshot SCREENSHOT
                         Take screenshots of resolved domains specify output
                         directory: --screenshot output_directory.
                         
-   -v, --virtual-host    Verify host name via DNS resolution and search for
+         -v, --virtual-host    Verify host name via DNS resolution and search for
                         virtual hosts.
-                        
-   -e DNS_SERVER, --dns-server DNS_SERVER
+                       
+         -e DNS_SERVER, --dns-server DNS_SERVER
                         DNS server to use for lookup.
                         
-  -t DNS_TLD, --dns-tld DNS_TLD
+          -t DNS_TLD, --dns-tld DNS_TLD
                          Perform a DNS TLD expansion discovery, default False.
                          
-   -r, --take-over       Check for takeovers.
+         -r, --take-over       Check for takeovers.
    
-   -n, --dns-lookup      Enable DNS server lookup, default False.
+          -n, --dns-lookup      Enable DNS server lookup, default False.
    
-   -c, --dns-brute       Perform a DNS brute force on the domain.
-   
-   -f FILENAME, --filename FILENAME
+          -c, --dns-brute       Perform a DNS brute force on the domain.
+    
+           -f FILENAME, --filename FILENAME
                         Save the results to an XML and JSON file.
                         
-   -b SOURCE, --source SOURCE
+           -b SOURCE, --source SOURCE
                         anubis, baidu, bing, binaryedge, bingapi,
                         
                         bufferoverun, censys, certspotter, crtsh, dnsdumpster,
