@@ -30,11 +30,7 @@ Option’s
 
  root@kali:~# theHarvester -h
 
- usage: theHarvester [-h] -d DOMAIN [-l LIMIT] [-S START] [-g] [-p] [-s]
- 
-                     [--screenshot SCREENSHOT] [-v] [-e DNS_SERVER]
-                     
-                     [-t DNS_TLD] [-r] [-n] [-c] [-f FILENAME] [-b SOURCE]
+ usage: theHarvester [-h] -d DOMAIN [-l LIMIT] [-S START] [-g] [-p] [-s] [--screenshot SCREENSHOT] [-v] [-e DNS_SERVER [-t DNS_TLD] [-r] [-n] [-c] [-f FILENAME] [-b SOURCE]
 
  theHarvester is used to gather open source intelligence (OSINT) on a company
  or domain.
