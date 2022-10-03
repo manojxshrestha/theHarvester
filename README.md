@@ -27,6 +27,8 @@ use the following command to upgrade the harvester
 # How to use this harvester tool ?
 
  root@kali:~# theHarvester -h
+ 
+![173199264-f445ce77-8da7-4b4f-bef1-51ba4b72b408](https://user-images.githubusercontent.com/106522935/193582052-78b3514f-b3ab-411c-83e1-fd8dfd4fa9b3.png)
 
 Usage:
 
