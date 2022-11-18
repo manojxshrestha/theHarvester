@@ -84,12 +84,11 @@ Usage:
                        
                        
     -b SOURCE, --source SOURCE [anubis, baidu, bing, binaryedge, bingapi, bufferoverun, censys, certspotter, zoomeye
-                               
                                crtsh, dnsdumpster, duckduckgo, fullhunt, github-code, google, hackertarget, hunter,                                    
                                intelx, linkedin, linkedin_links, n45ht, omnisint, otx, pentesttools, projectdiscovery,                                
                                qwant, rapiddns, rocketreach, securityTrails, spyse, sublist3r, threatcrowd, yahoo, 
-                               
                                threatminer, trello, twitter, urlscan, virustotal]
+                               
      
 
     -h: Use SHODAN database to query discovered hosts.
