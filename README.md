@@ -18,7 +18,8 @@ If it doesn’t work you can try to clone it directly from git using the followi
 
             $ git clone https://github.com/laramies/theHarvester.git
             $ cd theHarvester
-            $ sudo python ./theHarvester.py
+            $ sudo pip3 install -r requirements.txt
+            $ sudo python3 ./theHarvester.py
             
 # Upgrading:
 use the following command to upgrade the harvester
